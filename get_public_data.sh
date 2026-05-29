@@ -2,8 +2,8 @@
 # This script downloads the Roland public data set from the online resources.
 
 # create a directory for the data.
-mkdir ./roland_public_data
-cd ./roland_public_data
+mkdir ./public_data
+cd ./public_data
 
 # download bitcoin alpha data.
 wget "https://snap.stanford.edu/data/soc-sign-bitcoinalpha.csv.gz"
