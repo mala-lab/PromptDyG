@@ -1,4 +1,4 @@
-name: ITPA
+name: PromptDyG
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
@@ -134,4 +134,4 @@ dependencies:
       - yacs==0.1.8
       - zict==2.2.0
       - zipp==3.15.0
-prefix: /home/anonymous/anaconda3/envs/ITPA
+prefix: /home/anonymous/anaconda3/envs/PromptDyG
