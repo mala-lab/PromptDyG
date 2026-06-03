@@ -127,13 +127,7 @@ if __name__ == '__main__':
             dataset.negative_sample_weight = cfg.dataset.negative_sample_weight
         
         
-    main_auc, mean_mrr, mean_f1 = train_live_update(meters, model,  optimizer,  scheduler, datasets=datasets)
-    auc.append(main_auc)
-    mrr.append(mean_mrr)
-    f1.append(mean_f1)
-    print(np.mean(auc), np.mean(mrr), np.mean(f1))
-    logging.info('average AUC across 3 repeats: {}'.format(np.mean(auc)))
-    logging.info('average MRR across 3 repeats: {}'.format(np.mean(mrr)))
-    logging.info('average F1 across 3 repeats: {}'.format(np.mean(f1)))
+    mean_auc, mean_mrr, mean_f1 = train_live_update(meters, model,  optimizer,  scheduler, datasets=datasets)
     
+
 
