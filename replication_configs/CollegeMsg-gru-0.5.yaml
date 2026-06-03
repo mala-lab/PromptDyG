@@ -4,7 +4,7 @@ dataset:
   augment_feature_repr: position
   augment_label: ''
   augment_label_dims: 0
-  dir: /home/guoguoai/code/roland-master/roland_public_data
+  dir: /home/guoguoai/code/PromptDyG/public_data
   edge_dim: 0
   edge_encoder: true
   edge_encoder_bn: true
